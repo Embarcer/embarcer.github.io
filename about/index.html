@@ -6,7 +6,7 @@
     
     
     
-    <title>test_my_site | BLOG</title>
+    <title>BLOG</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     
     <meta name="theme-color" content="#77AAFF">
@@ -40,15 +40,15 @@
 
     
     <meta name="description" content="document.querySelectorAll(&apos;.github-emoji&apos;)           .forEach(el =&amp;gt; {             if (!el.dataset.src) { return; }             const img = document.createElement(&apos;img&apos;);             img.style">
-<meta property="og:type" content="article">
-<meta property="og:title" content="test_my_site">
-<meta property="og:url" content="https://github.com/Embarcer/embarcer.github.io.git/2019/09/07/test-my-site/index.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="BLOG">
+<meta property="og:url" content="https://github.com/Embarcer/embarcer.github.io.git/about/index.html">
 <meta property="og:site_name" content="BLOG">
 <meta property="og:description" content="document.querySelectorAll(&apos;.github-emoji&apos;)           .forEach(el =&amp;gt; {             if (!el.dataset.src) { return; }             const img = document.createElement(&apos;img&apos;);             img.style">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-07T10:58:08.195Z">
+<meta property="og:updated_time" content="2019-09-07T13:43:15.308Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="test_my_site">
+<meta name="twitter:title" content="BLOG">
 <meta name="twitter:description" content="document.querySelectorAll(&apos;.github-emoji&apos;)           .forEach(el =&amp;gt; {             if (!el.dataset.src) { return; }             const img = document.createElement(&apos;img&apos;);             img.style">
     
         <link rel="alternate" type="application/atom+xml" title="BLOG" href="/atom.xml">
@@ -64,7 +64,7 @@
 
 <body>
     <div id="loading" class="active"></div>
-    <aside id="menu"  class="hide" >
+    <aside id="menu"   >
   <div class="inner flex-row-vertical">
     <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
         <i class="icon icon-lg icon-close"></i>
@@ -113,7 +113,7 @@
                   </a>
               </li>
             
-              <li class="waves-block waves-effect">
+              <li class="waves-block waves-effect active">
                   <a href="/about"  >
                     <i class="icon icon-lg icon-smile-o"></i>
                     <span>关 于</span><i class="icon icon-lg icon-caret-left"></i>
@@ -151,7 +151,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">test_my_site</div>
+        <div class="flex-col header-title ellipsis"></div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -168,7 +168,7 @@
         </a>
     </div>
 </header>
-<header class="content-header post-header">
+<header class="content-header page-header">
     
     
     <div class="container fade-scale">
@@ -178,6 +178,19 @@
             </h1>
             <h5 class="subtitle">
                 
+                    <h1 id="pagetitle" class="archivestitle"></h1>
+                    <script>
+                        if(location.href.indexOf('about')!=-1){
+                            pagetitle.textContent = '一个坏掉的番茄';
+                        }else if(location.href.indexOf('tags')!=-1||location.href.indexOf('categories')!=-1){
+                            var a=location.href.substring(location.href.length-5,location.href.length-1);
+                            if(a==='tags'){
+                                pagetitle.textContent = '不积小流无以成江海';
+                            }else if(a==='ries'){
+                                pagetitle.textContent = '不积跬步无以至千里';
+                            }
+                        }
+                    </script>
                 
             </h5>
         </div>
@@ -187,157 +200,22 @@
 
 
 <div class="container body-wrap">
-    
-<article id="post-test-my-site"
-  class="post-article article-type-post fade" itemprop="blogPost">
-
-    <div class="post-card">
-        <h1 class="post-card-title">test_my_site</h1>
-        <div class="post-meta">
-            <i class="icon icon-lg icon-calendar-o"></i>
-            发表于
-            <time class="post-time" title="2019-09-07 18:58:08" datetime="2019-09-07T10:58:08.000Z"  itemprop="datePublished">2019-09-07</time>
-
-            <br id="mybreak"/>
-            
-<script>
-	mybreak.style="display:none";
-</script>
-
-
-            <i>·</i>
-            
-<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
-    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>次浏览
-</span>
-
-
-        </div>
-        <div class="post-count-custom">
-            <i class="icon icon-lg icon-comment-o"></i>
-            阅读本文可能花费您&nbsp;<span class="post-count">1</span>&nbsp;分钟
-        </div>
-        <div class="post-content" id="post-content" itemprop="postContent">
-            <script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
-        </div>
-
-        <blockquote class="post-copyright">
-    <div class="content">
+    <article class="page-article fade" itemprop="blogPage">
         
-<span class="post-time">
-    最后更新：<time datetime="2019-09-07T10:58:08.195Z" itemprop="dateUpdated">2019-09-07 18:58:08</time>
-</span>
+            <div class="card page-about-me flex-row">
+                <a href="/" class="avatar waves-effect waves-circle waves-light"><img src="/img/avatar.jpg"></a>
+                <div class="content flex-col">
+                    <p><strong>Murlio</strong></p>
+                    <p><em></em></p>
+                    <p>业精于勤荒于嬉，行成于思毁于随</p>
+                </div>
+            </div>
+        
+
+        
 
 
         
-        原文链接：<a href="/2019/09/07/test-my-site/" target="_blank" rel="external">https://github.com/Embarcer/embarcer.github.io.git/2019/09/07/test-my-site/</a>
-        
-    </div>
-    <footer>
-        <div onclick="location.href='https://github.com/Embarcer/embarcer.github.io.git'">
-            <img src="/img/avatar.jpg" alt="Murlio">
-            <a>Murlio</a>
-        </div>
-    </footer>
-</blockquote>
-
-        
-    <div class="page-reward">
-        <nav class="myreward">
-            <a id="rewardBtn" href="javascript:;"><span>打&nbsp;赏</span><span>装成好像很多人打赏的样子</span></a>
-        </nav>
-    </div>
-
-
-
-        <div class="post-footer">
-            
-
-            
-<div class="page-share-wrap">
-    
-
-<div class="page-share" id="pageShare">
-    <ul class="reset share-icons">
-      <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://github.com/Embarcer/embarcer.github.io.git/2019/09/07/test-my-site/&title=《test_my_site》 — BLOG&pic=https://github.com/Embarcer/embarcer.github.io.git/img/avatar.jpg" data-title="微博">
-          <i class="icon icon-weibo"></i>
-        </a>
-      </li>
-      <li>
-        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
-          <i class="icon icon-weixin"></i>
-        </a>
-      </li>
-      <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://github.com/Embarcer/embarcer.github.io.git/2019/09/07/test-my-site/&title=《test_my_site》 — BLOG&source=" data-title=" QQ">
-          <i class="icon icon-qq"></i>
-        </a>
-      </li>
-      <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/Embarcer/embarcer.github.io.git/2019/09/07/test-my-site/" data-title=" Facebook">
-          <i class="icon icon-facebook"></i>
-        </a>
-      </li>
-      <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《test_my_site》 — BLOG&url=https://github.com/Embarcer/embarcer.github.io.git/2019/09/07/test-my-site/&via=https://github.com/Embarcer/embarcer.github.io.git" data-title=" Twitter">
-          <i class="icon icon-twitter"></i>
-        </a>
-      </li>
-      <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://github.com/Embarcer/embarcer.github.io.git/2019/09/07/test-my-site/" data-title=" Google+">
-          <i class="icon icon-google-plus"></i>
-        </a>
-      </li>
-    </ul>
- </div>
-
-
-
-    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
-        <i class="icon icon-share-alt icon-lg"></i>
-    </a>
-</div>
-
-
-
-        </div>
-    </div>
-
-    
-<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
-  
-
-  
-    <div class="waves-block waves-effect next">
-      <a href="/2019/09/07/hello-world/" id="post-next" class="post-nav-link">
-        <h4 class="title" data-hover="下一篇：Hello World">下一篇：Hello World</h4>
-      </a>
-    </div>
-  
-</nav>
-
-
-
-    
     
 
     
@@ -345,7 +223,8 @@
     
 
 
-</article>
+    </article>
+    
 
 </div>
 
@@ -391,83 +270,8 @@
 
     </main>
     
-        
-<div id="reward" class="page-modal reward-lay">
-    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <h3 class="reward-title">
-        <i class="icon icon-quote-left"></i>
-        <span>感谢您的鼓励支持！</span>
-        <i class="icon icon-quote-right"></i>
-    </h3>
-    <div class="reward-content">
-        
-        <div class="reward-code">
-            <img id="rewardCode" data-img="/img/dog.png" alt="打赏二维码">
-        </div>
-        
-        <label class="reward-toggle">
-            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
-                data-wechat="/img/wechat.png" data-alipay="/img/alipay.png">
-            <div class="reward-toggle-ctrol">
-                <span class="reward-toggle-item wechatPay">&nbsp;&nbsp;微信&nbsp;&nbsp;</span>
-                <span class="reward-toggle-item alipayPay">支付宝</span>
-            </div>
-        </label>
-        
-        <i class="icon icon-caret-up"></i>
-    </div>
-</div>
-
-
-    
     <div class="mask" id="mask"></div>
 <a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
-
-
-
-<div class="global-share" id="globalShare">
-    <ul class="reset share-icons">
-      <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://github.com/Embarcer/embarcer.github.io.git/2019/09/07/test-my-site/&title=《test_my_site》 — BLOG&pic=https://github.com/Embarcer/embarcer.github.io.git/img/avatar.jpg" data-title="微博">
-          <i class="icon icon-weibo"></i>
-        </a>
-      </li>
-      <li>
-        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
-          <i class="icon icon-weixin"></i>
-        </a>
-      </li>
-      <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://github.com/Embarcer/embarcer.github.io.git/2019/09/07/test-my-site/&title=《test_my_site》 — BLOG&source=" data-title=" QQ">
-          <i class="icon icon-qq"></i>
-        </a>
-      </li>
-      <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/Embarcer/embarcer.github.io.git/2019/09/07/test-my-site/" data-title=" Facebook">
-          <i class="icon icon-facebook"></i>
-        </a>
-      </li>
-      <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《test_my_site》 — BLOG&url=https://github.com/Embarcer/embarcer.github.io.git/2019/09/07/test-my-site/&via=https://github.com/Embarcer/embarcer.github.io.git" data-title=" Twitter">
-          <i class="icon icon-twitter"></i>
-        </a>
-      </li>
-      <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://github.com/Embarcer/embarcer.github.io.git/2019/09/07/test-my-site/" data-title=" Google+">
-          <i class="icon icon-google-plus"></i>
-        </a>
-      </li>
-    </ul>
- </div>
-
-
-<div class="page-modal wx-share" id="wxShare">
-    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p class="wechatshare">扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACt0lEQVR42u3awU7kMBAE0Pn/n2avSChDVbe9gPRyQpCZ+OXgNtX9esXXx6fr62+S6/Onvn5z/p2vGxceHh7eYunvl9Vi9k+cvQg8PDy8/8N7WkR+T/3gt59KylKyHjw8PLzfw8sf+X5bb0sIHh4e3l/n5dt6HnDkf8XDw8P7WV4eDWyi2/YVzEJkPDw8vNu8vIv0e36+0t/Dw8PDW3fV2xC23dZnr7JYLR4eHt4FXr7hzvDJUfhUTPx4ZMfDw8O7xktiglNjAfnhOH9Bj4UKDw8P7yhvn15s4t32UF4Ug1PhDB4eHt7DPUnDfnZFjx8Vp/yzeHh4eGd5syXOgt38sD77tlWCgoeHh7fosycH5fcLyseqki1+9tKj6oeHh4e34CVNqfaQnW/9Zw/lxWkdDw8Pb8SbFYD8qD0rG20Q/HgPHh4e3gVeEpLOsuFNEJyHF9FhHQ8PD+8aL9nEZ8j9QttAGQ8PD+82r+0itUfeWcFon/7aX3h4eHglbxOwttt6O1LQviw8PDy8n+XlQ1H74YBZ2JGsBA8PD+8GL28pbX4+FTQkn8XDw8O7wUsGAvIBgtn35MFrcryOOnt4eHh4h3j7sGDTSMuPy0UZw8PDw7vGO/UPf15OZoUnYT/ORODh4eEd4u0Z7UuZBcerIzseHh7eZV4+/DQbMsgLQz4EVtyEh4eHd5SXL7odfmqbYW2c8U3YgYeHh3eNN2vzz8LcWTstLxV4eHh493gf5bVJR/MDfRsBfzN0hYeHh3eUt6onJamNJ9rRrtfmwsPDwyt5eQg729xng1NtxPy4Qjw8PLxrvHzRZ+OJ1/qKCgMeHh7ej/I246pt8ywpMN/EEHh4eHi/htdu8e3wwezof6ww4OHh4R3KOdvmU9tOm40URIUBDw8P7yhv0+Cftak2MfHZIAMPDw+v5P0DPSfaT4+w848AAAAASUVORK5CYII=" alt="微信分享二维码">
-</div>
-
-
 
 
     <!-- waves按钮特效 -->
@@ -475,7 +279,7 @@
 
 <!-- 主题配置脚本 -->
 <script>
-var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
 </script>
 
 <!-- jquery -->
